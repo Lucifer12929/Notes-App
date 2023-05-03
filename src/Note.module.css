@@ -1,0 +1,55 @@
+.notecard {
+  width: 90vw;
+  border: none;
+  background-color: var(--bg);
+  color: white;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.notecard p {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding: 0.5rem;
+  font-size: medium;
+  font-weight: 400;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttons button:hover {
+  background-color: var(--light-primary);
+  cursor: pointer;
+}
+
+.notecard input {
+  border-radius: 10px;
+  border: 2px solid var(--bg);
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  background-color: var(--light-text);
+  margin-bottom: 1rem;
+}
+
+.notecard input:nth-child(1) {
+  margin-top: 1rem;
+}
