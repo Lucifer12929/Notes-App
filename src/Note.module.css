@@ -32,7 +32,7 @@
   background: var(--primary);
   color: #fff;
   border: none;
-  border-radius: 10px;
+  border-radius: 14px;
 }
 
 .buttons button:hover {
