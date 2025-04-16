@@ -4,7 +4,7 @@ import Notes from "./Notes";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App Git">
       <Notes />
     </div>
   );
