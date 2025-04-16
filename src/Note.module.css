@@ -41,7 +41,7 @@
 }
 
 .notecard input {
-  border-radius: 10px;
+  border-radius: 9px;
   border: 2px solid var(--bg);
   color: #fff;
   width: 92%;
