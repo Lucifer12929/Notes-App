@@ -26,13 +26,13 @@
 }
 
 .buttons button {
-  padding: 0.5rem;
+  padding: 0.6rem;
   font-size: medium;
   font-weight: 400;
   background: var(--primary);
   color: #fff;
   border: none;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
 .buttons button:hover {
@@ -41,7 +41,7 @@
 }
 
 .notecard input {
-  border-radius: 9px;
+  border-radius: 10px;
   border: 2px solid var(--bg);
   color: #fff;
   width: 94%;
